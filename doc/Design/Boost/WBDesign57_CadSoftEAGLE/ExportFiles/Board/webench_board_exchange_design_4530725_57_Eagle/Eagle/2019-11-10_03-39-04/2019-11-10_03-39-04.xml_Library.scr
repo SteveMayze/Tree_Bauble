@@ -1,0 +1,522 @@
+# Created by Ultra Librarian Gold 8.1.204 Copyright © 1999-2016
+# Vinay Jayaram - Server, Texas Instruments
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit '0805.pac';
+Layer 1;
+Smd '1' 44 57 -0 R0 (-35.5 0);
+Layer 1;
+Smd '2' 44 57 -0 R0 (35.5 0);
+Layer 21;
+Layer 25;
+Wire 6 (-14 -28) (-14 28);
+Wire 6 (-14 28) (-44 28);
+Wire 6 (-44 28) (-44 -28);
+Wire 6 (-44 -28) (-14 -28);
+Wire 6 (14 28) (14 -28);
+Wire 6 (14 -28) (44 -28);
+Wire 6 (44 -28) (44 29);
+Wire 6 (44 29) (14 28);
+Wire 6 (-44 -28) (44 -28);
+Wire 6 (44 -28) (44 28);
+Wire 6 (44 28) (-44 28);
+Wire 6 (-44 28) (-44 -28);
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-113 -25);
+Layer 27;
+Change Size 50;
+Change Ratio 6;
+Text '>Value' SR0 (-129 -25);
+
+Edit 'TP-1502.pac';
+Change Drill 32;
+Pad '1' Round 0 65 R0 (0 0);
+Layer 21;
+Layer 25;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-113 -25);
+Layer 27;
+Change Size 50;
+Change Ratio 6;
+Text '>Value' SR0 (-129 -25);
+
+Edit 'XFL4020.pac';
+Layer 1;
+Smd '1' 38 134 -0 R0 (-46.5 0);
+Layer 1;
+Smd '2' 38 134 -0 R0 (46.5 0);
+Layer 21;
+Wire 6 (-84 -84) (84 -84);
+Wire 6 (84 -84) (84 84);
+Wire 6 (84 84) (-84 84);
+Wire 6 (-84 84) (-84 -84);
+Layer 25;
+Wire 6 (-84 -84) (84 -84);
+Wire 6 (84 -84) (84 84);
+Wire 6 (84 84) (-84 84);
+Wire 6 (-84 84) (-84 -84);
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-113 -25);
+Layer 27;
+Change Size 50;
+Change Ratio 6;
+Text '>Value' SR0 (-129 -25);
+
+Edit '0402.pac';
+Layer 1;
+Smd '1' 22 24 -0 R0 (-16.5 0);
+Layer 1;
+Smd '2' 22 24 -0 R0 (16.5 0);
+Layer 21;
+Layer 25;
+Wire 6 (-6 -12) (-6 12);
+Wire 6 (-6 12) (-22 12);
+Wire 6 (-22 12) (-22 -12);
+Wire 6 (-22 -12) (-6 -12);
+Wire 6 (5 12) (6 -12);
+Wire 6 (6 -12) (22 -12);
+Wire 6 (22 -12) (22 12);
+Wire 6 (22 12) (5 12);
+Wire 6 (-22 -12) (22 -12);
+Wire 6 (22 -12) (22 12);
+Wire 6 (22 12) (-22 12);
+Wire 6 (-22 12) (-22 -12);
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-113 -25);
+Layer 27;
+Change Size 50;
+Change Ratio 6;
+Text '>Value' SR0 (-129 -25);
+
+Edit 'RWU0007A.pac';
+Layer 1;
+Smd '1' 45.2756 13.7795 -0 R0 NOCREAM (-24.6063 21.6535);
+Layer 1;
+Smd '2' 57.0866 7.874 -0 R0 NOCREAM (-18.7008 0);
+Layer 1;
+Smd '3' 45.2756 13.7795 -0 R0 NOCREAM (-24.6063 -21.6535);
+Layer 1;
+Smd '4' 17.7165 9.8425 -0 R0 (38.3858 -29.5276);
+Layer 1;
+Smd '5' 17.7165 9.8425 -0 R0 (38.3858 -9.8425);
+Layer 1;
+Smd '6' 17.7165 9.8425 -0 R0 (38.3858 9.8425);
+Layer 1;
+Smd '7' 17.7165 9.8425 -0 R0 (38.3858 29.5276);
+Layer 25;
+Wire 6 (-41 -41) (41 -41);
+Wire 6 (-41 41) (41 41);
+Wire 6 (41 -41) (41 41);
+Wire 6 (-41 -41) (-41 41);
+Wire 4 (-16 24) -180 (-31 24);
+Wire 4 (-31 24) -180 (-16 24);
+Change Size 50;
+Change Ratio 6;
+Text '.Designator' SR0 (-31 -53);
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-113 -25);
+Layer 31;
+Layer 31;
+Change Spacing 50;
+Change Pour solid;
+Polygon 1  (-22.6378 1.9685) (-22.6378 -1.9685) (-22.6757 -2.3525) (-22.7877 -2.7218) \
+    (-22.9696 -3.0621) (-23.2144 -3.3604) (-23.5127 -3.6052) (-23.853 -3.7872) \
+    (-24.2223 -3.8992) (-24.6063 -3.937) (-45.2756 -3.937) (-45.6597 -3.8992) \
+    (-46.029 -3.7872) (-46.3693 -3.6052) (-46.6676 -3.3604) (-46.9124 -3.0621) \
+    (-47.0943 -2.7218) (-47.2063 -2.3525) (-47.2441 -1.9685) (-47.2441 1.9685) \
+    (-47.2063 2.3525) (-47.0943 2.7218) (-46.9124 3.0621) (-46.6676 3.3604) \
+    (-46.3693 3.6052) (-46.029 3.7872) (-45.6597 3.8992) (-45.2756 3.937) \
+    (-24.6063 3.937) (-24.2223 3.8992) (-23.853 3.7872) (-23.5127 3.6052) \
+    (-23.2144 3.3604) (-22.9696 3.0621) (-22.7877 2.7218) (-22.6757 2.3525) (-22.6378 1.9685);
+Layer 31;
+Change Spacing 50;
+Change Pour solid;
+Polygon 1  (-14.7637 -1.9685) (-14.7637 1.9685) (-14.7259 2.3525) (-14.6139 2.7218) \
+    (-14.432 3.0621) (-14.1872 3.3604) (-13.8889 3.6052) (-13.5486 3.7872) \
+    (-13.1793 3.8992) (-12.7952 3.937) (7.8741 3.937) (8.2581 3.8992) (8.6274 3.7872) \
+    (8.9677 3.6052) (9.266 3.3604) (9.5108 3.0621) (9.6927 2.7218) (9.8047 2.3525) \
+    (9.8426 1.9685) (9.8426 -1.9685) (9.8047 -2.3525) (9.6927 -2.7218) (9.5108 -3.0621) \
+    (9.266 -3.3604) (8.9677 -3.6052) (8.6274 -3.7872) (8.2581 -3.8992) (7.8741 -3.937) \
+    (-12.7952 -3.937) (-13.1793 -3.8992) (-13.5486 -3.7872) (-13.8889 -3.6052) \
+    (-14.1872 -3.3604) (-14.432 -3.0621) (-14.6139 -2.7218) (-14.7259 -2.3525) (-14.7637 -1.9685);
+Layer 31;
+Change Spacing 50;
+Change Pour solid;
+Polygon 1  (-20.6693 -26.5452) (-20.6693 -16.7618) (-20.6309 -16.372) (-20.5172 -15.9972) \
+    (-20.3326 -15.6517) (-20.0841 -15.349) (-19.7813 -15.1005) (-19.4359 -14.9158) \
+    (-19.0611 -14.8021) (-18.6713 -14.7637) (-3.9665 -14.7637) (-3.5767 -14.8021) \
+    (-3.2019 -14.9158) (-2.8565 -15.1005) (-2.5537 -15.349) (-2.3052 -15.6517) \
+    (-2.1206 -15.9972) (-2.0069 -16.372) (-1.9685 -16.7618) (-1.9685 -26.5452) \
+    (-2.0069 -26.935) (-2.1206 -27.3098) (-2.3052 -27.6553) (-2.5537 -27.958) \
+    (-2.8565 -28.2065) (-3.2019 -28.3912) (-3.5767 -28.5049) (-3.9665 -28.5432) \
+    (-18.6713 -28.5432) (-19.0611 -28.5049) (-19.4359 -28.3912) (-19.7813 -28.2065) \
+    (-20.0841 -27.958) (-20.3326 -27.6553) (-20.5172 -27.3098) (-20.6309 -26.935) (-20.6693 -26.5452);
+Layer 31;
+Change Spacing 50;
+Change Pour solid;
+Polygon 1  (-47.2441 -26.5452) (-47.2441 -16.7618) (-47.2057 -16.372) (-47.092 -15.9972) \
+    (-46.9074 -15.6517) (-46.6589 -15.349) (-46.3561 -15.1005) (-46.0107 -14.9158) \
+    (-45.6359 -14.8021) (-45.2461 -14.7637) (-30.5413 -14.7637) (-30.1515 -14.8021) \
+    (-29.7767 -14.9158) (-29.4313 -15.1005) (-29.1285 -15.349) (-28.88 -15.6517) \
+    (-28.6954 -15.9972) (-28.5817 -16.372) (-28.5433 -16.7618) (-28.5433 -26.5452) \
+    (-28.5817 -26.935) (-28.6954 -27.3098) (-28.88 -27.6553) (-29.1285 -27.958) \
+    (-29.4313 -28.2065) (-29.7767 -28.3912) (-30.1515 -28.5049) (-30.5413 -28.5432) \
+    (-45.2461 -28.5432) (-45.6359 -28.5049) (-46.0107 -28.3912) (-46.3561 -28.2065) \
+    (-46.6589 -27.958) (-46.9074 -27.6553) (-47.092 -27.3098) (-47.2057 -26.935) (-47.2441 -26.5452);
+Layer 31;
+Change Spacing 50;
+Change Pour solid;
+Polygon 1  (-47.2441 16.7618) (-47.2441 26.5452) (-47.2057 26.935) (-47.092 27.3098) \
+    (-46.9074 27.6553) (-46.6589 27.958) (-46.3561 28.2065) (-46.0107 28.3912) \
+    (-45.6359 28.5049) (-45.2461 28.5432) (-30.5413 28.5432) (-30.1515 28.5049) \
+    (-29.7767 28.3912) (-29.4313 28.2065) (-29.1285 27.958) (-28.88 27.6553) \
+    (-28.6954 27.3098) (-28.5817 26.935) (-28.5433 26.5452) (-28.5433 16.7618) \
+    (-28.5817 16.372) (-28.6954 15.9972) (-28.88 15.6517) (-29.1285 15.349) \
+    (-29.4313 15.1005) (-29.7767 14.9158) (-30.1515 14.8021) (-30.5413 14.7637) \
+    (-45.2461 14.7637) (-45.6359 14.8021) (-46.0107 14.9158) (-46.3561 15.1005) \
+    (-46.6589 15.349) (-46.9074 15.6517) (-47.092 15.9972) (-47.2057 16.372) (-47.2441 16.7618);
+Layer 31;
+Change Spacing 50;
+Change Pour solid;
+Polygon 1  (-20.6693 16.7618) (-20.6693 26.5452) (-20.6309 26.935) (-20.5172 27.3098) \
+    (-20.3326 27.6553) (-20.0841 27.958) (-19.7813 28.2065) (-19.4359 28.3912) \
+    (-19.0611 28.5049) (-18.6713 28.5432) (-3.9665 28.5432) (-3.5767 28.5049) \
+    (-3.2019 28.3912) (-2.8565 28.2065) (-2.5537 27.958) (-2.3052 27.6553) \
+    (-2.1206 27.3098) (-2.0069 26.935) (-1.9685 26.5452) (-1.9685 16.7618) \
+    (-2.0069 16.372) (-2.1206 15.9972) (-2.3052 15.6517) (-2.5537 15.349) \
+    (-2.8565 15.1005) (-3.2019 14.9158) (-3.5767 14.8021) (-3.9665 14.7637) \
+    (-18.6713 14.7637) (-19.0611 14.8021) (-19.4359 14.9158) (-19.7813 15.1005) \
+    (-20.0841 15.349) (-20.3326 15.6517) (-20.5172 15.9972) (-20.6309 16.372) (-20.6693 16.7618);
+Layer 21;
+Layer 27;
+Change Size 50;
+Change Ratio 6;
+Text '>Value' SR0 (-129 -25);
+
+Edit 'C0805C106K8PACTU.pac';
+Layer 1;
+Smd '1' 44 57 -0 R0 (-35.5 0);
+Layer 1;
+Smd '2' 44 57 -0 R0 (35.5 0);
+Layer 21;
+Layer 25;
+Wire 6 (-14 -28) (-14 28);
+Wire 6 (-14 28) (-44 28);
+Wire 6 (-44 28) (-44 -28);
+Wire 6 (-44 -28) (-14 -28);
+Wire 6 (14 28) (14 -28);
+Wire 6 (14 -28) (44 -28);
+Wire 6 (44 -28) (44 29);
+Wire 6 (44 29) (14 28);
+Wire 6 (-44 -28) (44 -28);
+Wire 6 (44 -28) (44 28);
+Wire 6 (44 28) (-44 28);
+Wire 6 (-44 28) (-44 -28);
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-113 -25);
+Layer 27;
+Change Size 50;
+Change Ratio 6;
+Text '>Value' SR0 (-129 -25);
+
+Edit 'GRM21BR71A106KE51L.pac';
+Layer 1;
+Smd '1' 44 57 -0 R0 (-35.5 0);
+Layer 1;
+Smd '2' 44 57 -0 R0 (35.5 0);
+Layer 21;
+Layer 25;
+Wire 6 (-14 -28) (-14 28);
+Wire 6 (-14 28) (-44 28);
+Wire 6 (-44 28) (-44 -28);
+Wire 6 (-44 -28) (-14 -28);
+Wire 6 (14 28) (14 -28);
+Wire 6 (14 -28) (44 -28);
+Wire 6 (44 -28) (44 29);
+Wire 6 (44 29) (14 28);
+Wire 6 (-44 -28) (44 -28);
+Wire 6 (44 -28) (44 28);
+Wire 6 (44 28) (-44 28);
+Wire 6 (-44 28) (-44 -28);
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-113 -25);
+Layer 27;
+Change Size 50;
+Change Ratio 6;
+Text '>Value' SR0 (-129 -25);
+
+Edit 'CRCW0402732KFKED.pac';
+Layer 1;
+Smd '1' 22 24 -0 R0 (-16.5 0);
+Layer 1;
+Smd '2' 22 24 -0 R0 (16.5 0);
+Layer 21;
+Layer 25;
+Wire 6 (-6 -12) (-6 12);
+Wire 6 (-6 12) (-22 12);
+Wire 6 (-22 12) (-22 -12);
+Wire 6 (-22 -12) (-6 -12);
+Wire 6 (5 12) (6 -12);
+Wire 6 (6 -12) (22 -12);
+Wire 6 (22 -12) (22 12);
+Wire 6 (22 12) (5 12);
+Wire 6 (-22 -12) (22 -12);
+Wire 6 (22 -12) (22 12);
+Wire 6 (22 12) (-22 12);
+Wire 6 (-22 12) (-22 -12);
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-113 -25);
+Layer 27;
+Change Size 50;
+Change Ratio 6;
+Text '>Value' SR0 (-129 -25);
+
+Edit 'WB_CAPACITOR.sym';
+Layer 94;
+Pin '1' Pas None Short R180 Off 0 (300 0);
+Pin '2' Pas None Short R0 Off 0 (-300 0);
+Wire 6 (300 0) (200 0);
+Wire 6 (-300 0) (-200 0);
+Wire 6 (30 -120) (30 120);
+Wire 6 (-200 0) (-30 0);
+Wire 6 (30 0) (200 0);
+Wire 6 (-30 -120) (-30 120);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (-186 259);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (-211 -41);
+
+Edit 'TP-1502.sym';
+Layer 94;
+Pin 'TP' Pas None Long R180 Both 0 (0 0);
+Wire 6 (-1500 200) (-1500 -200);
+Wire 6 (-1500 -200) (-300 -200);
+Wire 6 (-300 -200) (-300 200);
+Wire 6 (-300 200) (-1500 200);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (-1086 359);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (-1111 259);
+
+Edit 'WB_INDUCTOR.sym';
+Layer 94;
+Pin '2' Pas None Short R180 Off 0 (300 0);
+Pin '1' Pas None Short R0 Off 0 (-300 0);
+Wire 6 (200 0) (300 0);
+Wire 6 (-300 0) (-200 0);
+Wire 6 (100 0) -12 (106 33);
+Wire 6 (106 33) -78 (150 73);
+Wire 6 (150 73) -79 (193 33);
+Wire 6 (193 33) -2 (200 3);
+Wire 6 (0 0) -12 (6 33);
+Wire 6 (6 33) -78 (50 73);
+Wire 6 (50 73) -79 (93 33);
+Wire 6 (93 33) -17 (100 -7);
+Wire 6 (-100 0) -12 (-94 33);
+Wire 6 (-94 33) -78 (-50 73);
+Wire 6 (-50 73) -79 (-7 33);
+Wire 6 (-7 33) -17 (0 -7);
+Wire 6 (-200 0) -12 (-194 33);
+Wire 6 (-194 33) -78 (-150 73);
+Wire 6 (-150 73) -79 (-107 33);
+Wire 6 (-107 33) -17 (-100 -7);
+Wire 6 (-100 -7) -53 (-100 0);
+Wire 6 (0 -7) -53 (0 0);
+Wire 6 (100 -7) -53 (100 0);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (-186 184);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (-211 -41);
+
+Edit 'WB_RESISTOR.sym';
+Layer 94;
+Pin '1' Pas None Short R180 Off 0 (300 0);
+Pin '2' Pas None Short R0 Off 0 (-300 0);
+Wire 6 (300 0) (200 0);
+Wire 6 (200 0) (150 60);
+Wire 6 (150 60) (75 -60);
+Wire 6 (75 -60) (0 60);
+Wire 6 (0 60) (-75 -60);
+Wire 6 (-75 -60) (-150 60);
+Wire 6 (-150 60) (-200 0);
+Wire 6 (-200 0) (-300 0);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (-186 184);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (-211 -41);
+
+Edit 'TPS61022RWU.sym';
+Layer 94;
+Pin 'GND' Pwr None Middle R180 Both 0 (700 -500);
+Pin 'SW' Pwr None Middle R180 Both 0 (700 500);
+Pin 'VOUT' Pwr None Middle R180 Both 0 (700 200);
+Pin 'FB' In None Middle R180 Both 0 (700 -300);
+Pin 'EN' In None Middle R0 Both 0 (-700 100);
+Pin 'MODE' In None Middle R0 Both 0 (-700 -300);
+Pin 'VIN' Pwr None Middle R0 Both 0 (-700 500);
+Wire 8 (-500 -700) (500 -700);
+Wire 8 (500 -700) (500 700);
+Wire 8 (500 700) (-500 700);
+Wire 8 (-500 700) (-500 -700);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (-186 59);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (-211 -41);
+
+Edit 'C0805C475K8PACTU.dev';
+Prefix '';
+Description '';
+Value Off;
+Add WB_CAPACITOR 'A' Next  0 (0 0);
+Package '0805';
+Technology '';
+Attribute Cap '4.7E6';
+Attribute ESR '0.0040';
+Attribute IRMS '9.89';
+Attribute VDC '10.0';
+Attribute Manufacturer_Part_Number 'C0805C475K8PACTU';
+Attribute Vendor 'Kemet';
+Connect 'A.1' '1';
+Connect 'A.2' '2';
+
+Edit 'C0805C106K8PACTU.dev';
+Prefix '';
+Description '';
+Value Off;
+Add WB_CAPACITOR 'A' Next  0 (0 0);
+Package 'C0805C106K8PACTU';
+Technology '';
+Attribute Cap '1.0E5';
+Attribute ESR '0.0030';
+Attribute IRMS '11.43';
+Attribute VDC '10.0';
+Attribute Manufacturer_Part_Number 'C0805C106K8PACTU';
+Attribute Vendor 'Kemet';
+Connect 'A.1' '1';
+Connect 'A.2' '2';
+
+Edit 'GRM21BR71A106KE51L.dev';
+Prefix '';
+Description '';
+Value Off;
+Add WB_CAPACITOR 'A' Next  0 (0 0);
+Package 'GRM21BR71A106KE51L';
+Technology '';
+Attribute Cap '1.0E5';
+Attribute ESR '0.0030';
+Attribute IRMS '0.0';
+Attribute VDC '10.0';
+Attribute Manufacturer_Part_Number 'GRM21BR71A106KE51L';
+Attribute Vendor 'MuRata';
+Connect 'A.1' '1';
+Connect 'A.2' '2';
+
+Edit 'XFL4020-102MEB.dev';
+Prefix '';
+Description '';
+Value Off;
+Add WB_INDUCTOR 'A' Next  0 (0 0);
+Package 'XFL4020';
+Technology '';
+Attribute L '1.0E6';
+Attribute DCR '0.01';
+Attribute IDC '5.4';
+Attribute Manufacturer_Part_Number 'XFL4020102MEB';
+Attribute Vendor 'Coilcraft';
+Connect 'A.1' '1';
+Connect 'A.2' '2';
+
+Edit 'TPS61022RWUR.dev';
+Prefix 'U';
+Description '';
+Value Off;
+Add TPS61022RWU 'A' Next  0 (0 0);
+Package 'RWU0007A';
+Technology '';
+Attribute Manufacturer 'Texas Instruments';
+Attribute PartNumber 'TPS61022RWUR';
+Attribute RefDes 'RefDes';
+Attribute TYPE 'TYPE';
+Attribute Value 'Value';
+Connect 'A.GND' '1';
+Connect 'A.SW' '2';
+Connect 'A.VOUT' '3';
+Connect 'A.FB' '4';
+Connect 'A.EN' '5';
+Connect 'A.MODE' '6';
+Connect 'A.VIN' '7';
+
+Edit 'CRCW0402100KFKED.dev';
+Prefix '';
+Description '';
+Value Off;
+Add WB_RESISTOR 'A' Next  0 (0 0);
+Package '0402';
+Technology '';
+Attribute Resistance '100000.0';
+Attribute Power '0.063';
+Attribute Tolerance '1.0';
+Attribute Manufacturer_Part_Number 'CRCW0402100KFKED';
+Attribute Vendor 'VishayDale';
+Connect 'A.1' '1';
+Connect 'A.2' '2';
+
+Edit 'CRCW0402732KFKED.dev';
+Prefix '';
+Description '';
+Value Off;
+Add WB_RESISTOR 'A' Next  0 (0 0);
+Package 'CRCW0402732KFKED';
+Technology '';
+Attribute Resistance '732000.0';
+Attribute Power '0.063';
+Attribute Tolerance '1.0';
+Attribute Manufacturer_Part_Number 'CRCW0402732KFKED';
+Attribute Vendor 'VishayDale';
+Connect 'A.1' '1';
+Connect 'A.2' '2';
+
+Edit 'TP-1502.dev';
+Prefix '';
+Description '';
+Value Off;
+Add TP-1502 'A' Next  0 (0 0);
+Package 'TP-1502';
+Technology '';
+Connect 'A.TP' '1';
